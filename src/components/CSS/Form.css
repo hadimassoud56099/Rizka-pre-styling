@@ -1,0 +1,39 @@
+
+
+.forms {
+     width:800px;
+   height:fit-content;
+    align-self: center;
+    justify-content: center;
+     box-shadow: 0px 0px 20px 0px rgba(15, 15, 15, 0.2);
+     border-color:#13aa52 ;
+    border-radius: 20px;
+    padding:50px;
+    cursor: pointer;
+    margin:auto;
+    text-align: left;
+  } 
+  .outer-container{
+      display:flex;
+      flex-direction: row;
+      width:100%;
+      justify-content: space-between;
+  }
+
+
+  .inner-forms {
+   
+  height:fit-content;
+   align-self: center;
+   justify-content: center;
+   padding:30px;
+   box-shadow: 0px 0px 20px 0px rgba(15, 15, 15, 0.2);
+   max-width: 80vw;
+   min-width: 30vw;
+   cursor: pointer;
+   margin:auto;
+   text-align: left;
+ } 
+
+ 
+

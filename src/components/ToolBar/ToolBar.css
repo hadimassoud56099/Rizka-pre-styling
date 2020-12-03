@@ -1,0 +1,112 @@
+.toolbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height:56px;
+    background-color: white;
+    align-items:center;
+    box-shadow:0 0 10px 0 grey ;
+    border-bottom:1px solid #13aa45;
+    z-index: 50;
+}
+.toolbar_logo{
+    margin-left:1.5rem;
+    font-weight: bold;
+    margin-left:2rem;
+}
+.toolbar_logo a{
+    color:#13aa52;
+    text-decoration:green;
+    font-size:1.5rem;
+    
+}
+.toolbar_nav{
+    display:flex;
+    height:100%;
+    align-items: center;
+}
+.toolbar_nav_Items ul{
+    list-style:none;
+    display:flex;
+}
+.toolbar_nav_Items li{
+     padding:1rem 1.5rem; 
+    font-size:1rem;
+    font-weight:bold;
+    cursor:pointer;
+    height:20px;
+}
+/* .toolbar_nav_Items li:hover,.toolbar_nav_Items li:active{border-bottom: solid green;} */
+.toolbar_nav_Items .item{
+    color:black; 
+}
+.toolbar_nav_Items a:hover{
+    color:#13aa45;
+}
+
+
+
+.spacer_div{
+     flex:1;   /* takes all the avialable space */
+}
+.styled_button{
+    background-color: #13aa52;
+    height: 40px;
+    width:80px;
+    color:white;
+    border:none;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding-bottom:-10px ;
+    margin: 0 1.5rem;
+    transition: background-color 0.3s ease-out;
+}
+.styled_button:hover{
+    background-color:#13aa52;
+    border-style:solid;
+    border-width:1px;
+    border-radius: 4px;
+}
+.styled_button:focus{outline:none;}
+@media(max-width: 1010px){
+    .toolbar_nav_Items{
+        display:none;
+    }
+}
+.item{
+    text-decoration: none;
+}
+.profile{
+    text-decoration: none;
+   background-color: transparent;
+   color:black;
+   border:none;
+   display:flex;
+   flex-direction: row;
+   width:fit-content;
+   justify-content: space-evenly;
+   font-size: 16px;
+   padding:20px 0px 20px 10px;
+   border-left:1px solid #13aa52;
+   height:56px;
+}
+.profileDrawer{
+    text-decoration: none;
+    background-color: transparent;
+    color:black;
+    border:none;
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding:5px;
+    
+    border-bottom:1px solid #13aa52;
+}
+
+.logo{width:50px;
+height:50px;
+margin-left:20px;}

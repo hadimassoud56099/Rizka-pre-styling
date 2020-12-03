@@ -1,0 +1,25 @@
+GET http://localhost:4000/usersPayment/getPayment
+Content-Type:application/json
+
+{
+   "userID": "5fc215c85321a5297c1e05f0"
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+

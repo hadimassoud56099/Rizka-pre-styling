@@ -1,0 +1,30 @@
+
+.btn-div{
+   
+    display:flex;
+    flex-direction: row;
+    justify-content:center ;
+   
+}
+
+.myAccount-btns {
+    background-color: #13aa52;
+    height: 40px;
+    width:100%;
+    color:white;
+    border:none;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin: 5px 0;
+    transition: background-color 0.3s ease-out;
+    position: static;
+   
+}
+/*DONE*/
+
+
+  
+  
+  
+    
+    
